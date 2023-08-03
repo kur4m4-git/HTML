@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+}
+nav {
+		width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: black;
+    color: #FAFAFA;
+
+}
+
+nav ul li a:hover{
+	color: #777;
+}
+
+.logo{
+	color: #FAFAFA;
+	font-size: 20px;
+	padding: 20px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 5px;
+	padding: 20px;
+}
+
+nav ul li a {
+	color: white ;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+nav ul li a:hover {
+	background-color: #ccc;
+}
+
+div.head {
+	text-align: center;
+	padding: 20px;
+}
+
+div.gallery {
+	display: inline;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 490px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+	width: 100%;
+	font-size: 20px;
+	justify-content: space-between;
+	background: black;
+	color: white;
+	display: inline-flex;
+}
+
+footer ul li {
+	display: inline-table;
+}
+
+.contact li {
+	margin: 10px 10px 10px 10px;
+}
+
+.contact .address_info {
+	margin: 10px 50px 10px 10px;
+}
+
+.copyright {
+	padding: 30px 40px 70px; 
+}
